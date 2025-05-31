@@ -29,29 +29,243 @@ ENV/
 .vscode/
 *.swp
 *.swo
+*.swn
+.DS_Store
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Cache
 .cache/
 __pycache__/
 *.cache
+.pytest_cache/
+.mypy_cache/
 
 # Logs
 *.log
 logs/
 
-# Settings
-settings.json
-
 # Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+*.spec
+
+# Distribution / packaging
+.Python
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project specific
+*.db
+*.sqlite3
+*.bak
+*.swp
+*~
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Local development
 .env
 .env.local
 .env.*.local
 
-# Build output
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# Local development
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.pot
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Documentation builds
+/docs/_build/
+/docs/.doctrees/
+/docs/.coverage
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+ENV/
+
+# Docker
+.docker/
+.dockerignore
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Package data
+image_metadata_viewer/locales/*.json
+image_metadata_viewer/__pycache__/
+
+# Test coverage
+coverage.xml
+.coverage
+htmlcov/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Documentation builds
+/docs/_build/
+/docs/.doctrees/
+/docs/.coverage
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+ENV/

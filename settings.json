@@ -1,0 +1,51 @@
+{
+    "window": {
+        "width": 1200,
+        "height": 800,
+        "min_width": 800,
+        "min_height": 600
+    },
+    "system": {
+        "windows": {
+            "icon": "icon.ico",
+            "default_paths": [
+                "~/Pictures",
+                "~/Downloads",
+                "~/Desktop",
+                "~/Documents"
+            ],
+            "file_dialog": {
+                "initialdir": "~/Pictures",
+                "filetypes": [
+                    ["Image Files", "*.jpg *.jpeg *.png *.bmp *.tiff"],
+                    ["All Files", "*.*"]
+                ]
+            }
+        },
+        "linux": {
+            "icon": "icon.png",
+            "default_paths": [
+                "~/Pictures",
+                "~/Downloads",
+                "~/Desktop",
+                "~/Documents"
+            ],
+            "file_dialog": {
+                "initialdir": "~/Pictures",
+                "filetypes": [
+                    ["Image Files", "*.jpg *.jpeg *.png *.bmp *.tiff"],
+                    ["All Files", "*.*"]
+                ]
+            }
+        }
+    },
+    "appearance": {
+        "theme": "light",
+        "dark_mode": false,
+        "font_size": 12,
+        "font_family": "Arial"
+    },
+    "language": "en",
+    "recent_files": [],
+    "last_save_location": "~/Downloads"
+}

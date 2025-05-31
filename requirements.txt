@@ -1,5 +1,16 @@
+# Core dependencies
 Pillow>=10.0.0
-CustomTkinter>=5.0.0
-tkinterdnd2>=0.5.0
+PyQt5>=5.15.0
 requests>=2.31.0
 python-dotenv>=1.0.0
+
+# Platform-specific dependencies
+# Windows
+pywin32>=300; sys_platform == 'win32'
+# macOS
+pyobjc>=9.0.0; sys_platform == 'darwin'
+# Linux
+python-xlib>=0.23; sys_platform == 'linux'
+
+# Development dependencies (install with: pip install -r requirements.txt -r requirements-dev.txt)
+# See pyproject.toml for the complete development dependencies
